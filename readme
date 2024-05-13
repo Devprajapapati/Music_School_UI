@@ -1,0 +1,8 @@
+--- basiclly each folder can have there layout and page
+>Layout -> it like a big box that have a structure which each page can acces  throught the folder used mostly for layout it like making the component of react which each person can use
+
+>Page -> it actually servers all the content
+
+<RESTRICTIONS- > ham basically app ke ander jo bhi folder banate hai unka naam ham kuch bhi rakh skte hai par file ka naam page.tsx hi rakhan hoga
+
+>Generally we cannot use react hooks directly inside next js componnets since next js is a fullstack framework so both server and client side rendering is done so to specify <Imp to specify that e are using react compontn we have to use "use client" to get access of all the hooks of react
